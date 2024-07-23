@@ -14,3 +14,24 @@ body {
     justify-content: center;
     gap: 24px;
 }
+
+/* Works on Firefox */
+.cTableDiv {
+    scrollbar-width: thin;
+    scrollbar-color: #60aac4 #041c26;
+}
+
+/* Works on Chrome, Edge, and Safari */
+.cTableDiv::-webkit-scrollbar {
+    width: 12px;
+}
+
+.cTableDiv::-webkit-scrollbar-track {
+    background: #041c26;
+}
+
+.cTableDiv::-webkit-scrollbar-thumb {
+    background-color: #60aac4;
+    border-radius: 20px;
+    border: 3px solid #041c26;
+}

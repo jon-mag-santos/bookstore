@@ -1,0 +1,100 @@
+.bookDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 400px;
+    background-color: #0d3240;
+    color: whitesmoke;
+}
+
+.bookName {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-align: center;
+    font-weight: 700;
+    width: inherit;
+    border-bottom: 1.8px solid #5e96a7;
+}
+
+.imgBook {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: inherit;
+    text-align: center;
+    background-color: #124758;
+    border-bottom: 1.8px solid #5e96a7;
+}
+
+.priceLikes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: normal;
+    padding: 16px;
+}
+
+.price {
+    font-size: 24px;
+    color: red;
+}
+
+.likes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+}
+
+.bookDetails {
+    align-self: normal;
+    padding: 16px;
+    border-bottom: 1.8px solid #5e96a7;
+}
+
+.cTableDiv {
+    height: 100px;
+    overflow: auto;
+}
+
+table td{
+    vertical-align: top;
+}
+
+.sentInput {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.sentInput form {
+    display: inline-flex;
+    width: 100%;
+}
+
+.sentImg {
+    cursor: pointer;
+}
+
+.commentsDiv {
+    align-self: normal;
+    padding: 16px
+}
+
+.inputComment {
+    width: 90%;
+    background-color: #124758;
+    color: whitesmoke;
+    border-style: none;
+    border-bottom: 2px solid #5e96a7;
+    height: 24px;
+}
+
+.inputComment::placeholder {
+    color: whitesmoke;
+    opacity: 1;
+}
+
+.inputComment::-ms-input-placeholder {
+    color: whitesmoke;
+}

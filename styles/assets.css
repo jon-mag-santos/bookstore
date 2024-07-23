@@ -1,0 +1,16 @@
+.imgBook img {
+    width: 96px;
+    height: 96px;
+}
+
+.likedHeart {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.sentImg {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}

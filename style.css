@@ -8,11 +8,29 @@ body {
     background-color: #05171e;
 }
 
+header {
+    background-color: #082029;
+    padding: 24px 32px;
+    margin-bottom: 8px;
+    color: whitesmoke;
+    width: inherit;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.headerName {
+    font-size: 24px;
+    font-weight: 600;
+}
+
 #mainContent {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
+    padding-top: 80px;
 }
 
 /* Works on Firefox */

@@ -181,11 +181,11 @@ let books = [
     getAllBooks();
   }
 
-  function saveToLocalStorage (){
+  function saveToLocalStorage() {
     localStorage.setItem("books", JSON.stringify(books));
   }
 
-  function getFromLocalStorage () {
+  function getFromLocalStorage() {
     let localBooks = JSON.parse(localStorage.getItem("books"));
     if (localBooks != null ){
         books = localBooks;
